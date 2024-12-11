@@ -1,0 +1,46 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-white: #FFFFFF; 
+  --color-black: #000000;
+  --color-red: #FF5555;
+}
+
+body {
+  font-family: 'Clash Display', sans-serif;
+  background: #FFFFFF;
+}
+
+h2 {
+  font-weight: 700;
+  color: var(--color-black);
+  font-size: 48px;
+  line-height: 1.1;
+}
+h5 {
+  font-weight: 500;
+  color: var(--color-red);
+  font-size: 18px;
+  line-height: 1.1;
+  opacity: 50%;
+}
+
+p{
+  font-weight: 500;
+  color: var(--color-black);
+  font-size: 18px;
+  line-height: 28px;
+  opacity: 50%;
+}
+
+
