@@ -24,23 +24,42 @@ body {
 h2 {
   font-weight: 700;
   color: var(--color-black);
-  font-size: 48px;
+  font-size: 38px;
   line-height: 1.1;
+}
+h4 {
+  font-weight: 600;
+  color: var(--color-white);
+  font-size: 20px;
+  line-height: 1.1;
+  
 }
 h5 {
   font-weight: 500;
   color: var(--color-red);
   font-size: 18px;
   line-height: 1.1;
-  opacity: 50%;
+  opacity: 95%;
 }
 
 p{
   font-weight: 500;
   color: var(--color-black);
-  font-size: 18px;
-  line-height: 28px;
-  opacity: 50%;
+  font-size: 15px;
+  line-height: 17px;
+  opacity: 60%;
+}
+
+a{
+   color: var(--color-white);
+   font-size: 20px;
+   line-height: 20px;
+   transition: all , .5s;
+}
+
+a:hover{
+  color: var(--color-red);
+ 
 }
 
 
